@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.sidebar {
+  text-align: right;
+}
+
+#sidebar-site-title a {
+  font-weight: bold;
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+#sidebar-site-title a:hover {
+  text-shadow: 0 0 10px #fff;
+  transition: .5s
+}
+
+.sidebar-nav ul li{
+  display: inline;
+  margin-left: 10px;
+}
+
+.sidebar-nav span {
+  font-size: 1.5em;
+}
+
+.sidebar-nav span:hover {
+  text-shadow: 0 0 5px #fff;
+  transition: .5s
+}
+
+#copyright {
+  font-size: .7em;
+}
+
+.post h2 {
+  display: inline-block;
+  /* float: left; */
+}
+
+.post h2 .fa-link {
+  display: none;
+  margin-left: 10px;
+}
+
+.post h2:hover .fa-link {
+  display: inline;
+}

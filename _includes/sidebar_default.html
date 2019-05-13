@@ -1,0 +1,37 @@
+<div class="sidebar">
+  
+  <!-- class: sidebar-sticky is an option -->
+  <div class="container">
+    <div class="sidebar-about">
+      <div id="sidebar-site-title">
+        <a href="{{ site.baseurl }}">
+          <p></p>
+          {{ site.title }}
+        </a>
+      </div>
+
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <!-- I want only list and copyright in the right bottom, so add class="container sidebar-sticky" -->
+    <nav class="sidebar-nav container sidebar-sticky">
+
+      <!-- <a class="sidebar-nav-item" href="{{ site.url }}NEW_ITEM">NEW_ITEM</a> -->
+      <a class="sidebar-nav-item" href="{{ site.url }}/tutorials/how-did-i-build-this-page-with-jekyll">如何製作這個網站？</a>
+      <a class="sidebar-nav-item" href="{{ site.url }}/only-for-debug">Liquid語法測試</a>
+      <a class="sidebar-nav-item" href="{{ site.url }}/about">關於我</a>
+      <a class="sidebar-nav-item" href="{{ site.url }}/contact">聯絡我</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+
+      <ul>
+        <li></li>
+        <li><a href="https://github.com/linkchen1982"><span><i class="fab fa-github-square"></i></span></a></li>
+        <li><a href="https://www.facebook.com/linkchen1982"><span><i class="fab fa-facebook"></i></span></a></li>
+        <li><a href="https://www.linkedin.com/in/linkchen1982/"><span><i class="fab fa-linkedin"></i></span></a></li>
+      </ul>
+    </nav>
+
+    <p id="copyright" class="container sidebar-sticky">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+  
+</div>

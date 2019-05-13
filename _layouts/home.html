@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+  <!-- Page Content -->
+  {{ content }}
+
+<script>
+  $(document).ready(function() {
+    var f = document.getElementById('underscore_blink');
+    setInterval(function() {
+      document.getElementById('underscore_blink').style.display = (f.style.display == 'none' ? '' : 'none')
+    }, 600); 
+  });
+</script>

@@ -1,0 +1,41 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class: 'syntax'
+
+
+# Permalinks
+# https://jekyllrb.com/docs/permalinks/#built-in-formats
+# Original is /:categories/:year/:month/:day/:title/
+permalink:        /:categories/:title
+# === It becomes unnecessary after v3.0.0 ===
+# relative_permalinks: true
+
+
+# Setup
+title:            Link Chen
+# You can insert html code in quote.
+description: '這個網頁是讓我練習使用<bold>Jekyll</bold>以及<bold>Hyde theme</bold>。<br />可能看起來不夠成熟，<br />還請見諒。'
+encoding: UTF-8
+# url:              /
+url:              https://linkchen1982.github.io/jekyll-with-hyde-theme
+baseurl:          /
+
+# Handling Reading
+exclude: ["_draft"]
+
+author:
+  name:           'Link Chen'
+
+# Custom vars
+# version:          2.1.0
+
+github:
+  repo:           https://github.com/linkchen1982/jekyll-with-hyde-theme
