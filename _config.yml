@@ -31,6 +31,10 @@ baseurl:          /
 # Handling Reading
 exclude: ["_draft"]
 
+# Repository
+# https://help.github.com/en/articles/repository-metadata-on-github-pages#using-repository-metadata-locally
+repository: linkchen1982/jekyll-with-hyde-theme
+
 author:
   name:           'Link Chen'
 
