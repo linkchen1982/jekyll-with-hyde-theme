@@ -1,3 +1,5 @@
+> 更詳細內容請至[https://linkchen1982.github.io/jekyll-with-hyde-theme/](https://linkchen1982.github.io/jekyll-with-hyde-theme/) 裡查閱。為了README.md閱讀方便，這裡我有刪掉部分資料。
+
 這個Blog使用**Jekyll**製作。Jekyll是一種剖析引擎工具，幫助你快速製作出簡單精巧的靜態網頁，並且直接架設於Github裡，無需付費也可以建立免費的個人網頁。Jekyll同時也是Ruby裡的其中一種Gem，使用起來有點類似Ruby on Rails的邏輯，只是Jekyll構造更簡單，適合剛學習網頁製作的人作為練習使用。
 
 大致上我是依照這樣的流程來執行：
@@ -30,8 +32,8 @@
 ~~~
 安裝完成後，可以直接透過指令，新建一個Jekyll網頁：
 ~~~
-> jekyll new YOUR_SITE_NAME**
-> cd **YOUR_SITE_NAME
+> jekyll new YOUR_SITE_NAME
+> cd YOUR_SITE_NAME
 ~~~
 這時可以試試看你所建立的Jekyll專案是否成功：
 ~~~
